@@ -5,9 +5,10 @@ import subprocess
 import datetime
 import os
 
-
+from keep_alive import keep_alive
+keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7169157495:AAHEkC6j6YgDwG1YouzlKQljGXE3yVmz6cU')
+bot = telebot.TeleBot('7359749806:AAHcQAjIJinKAJpbs0gZ-mGHSI_7O0mCMGM')
 
 # Admin user IDs
 admin_id = ["1338724139","1397693715"]
